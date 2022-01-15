@@ -1,4 +1,4 @@
-import moeda
+from ex108 import moeda
 
 preço = float(input('Digite o preço: R$'))
 print(f'O dobro de {moeda.moeda(preço)} é igual a {moeda.moeda(moeda.dobro(preço))}')
